@@ -21,22 +21,28 @@ const Counter = () => {
 
   return (
     <div className="counter-container">
-        <div className="counter-Header">
+      <div className="middle-container">
+      <div className="counter-Header">
             <h1>Software Engineer-Front End Task</h1>
             <h3>Counter-app</h3>
         </div>
 
       <div className="counter">
-        <span>count is :{currentState}</span>
+        <span>{currentState}</span>
       </div>
       <div className="button-container">
-        <button onClick={handleIncrement}> Increment</button>
-        <button onClick={handleDecrement}>Decrement</button>
-        <button onClick={handleReset}>Reset</button>
+        <button className="increment" onClick={handleIncrement}><span>Increment</span></button>
+        <button className="decrement" onClick={handleDecrement}><span>Decrement</span></button>
+      </div>
+      <div className="reset">
+        <img className="reset-img" src="/images/reset1.png" alt="reset" onClick={handleReset}/>
       </div>
       <div className="Footer">
           <span>All rights reserved &copy; {year} || @Nikesh Dahal</span>
       </div>
+
+      </div>
+        
     </div>
   );
 };
