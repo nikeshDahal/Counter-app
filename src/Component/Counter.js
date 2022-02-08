@@ -23,7 +23,9 @@ const Counter = () => {
     <div className="counter-container">
       <div className="middle-container">
       <div className="counter-Header">
-            <h1>Software Engineer-Front End Task</h1>
+            <h1>SOFTWARE ENGINEER INTERN</h1>
+            <h2>Front End - Task Assesment</h2>
+            
             <h3>Counter-app</h3>
         </div>
 
@@ -35,7 +37,7 @@ const Counter = () => {
         <button className="decrement" onClick={handleDecrement}><span>Decrement</span></button>
       </div>
       <div className="reset">
-        <img className="reset-img" src="/images/reset1.png" alt="reset" onClick={handleReset}/>
+        <img className="reset-img" src="/images/reset3.png" alt="reset" onClick={handleReset}/>
       </div>
       <div className="Footer">
           <span>All rights reserved &copy; {year} || @Nikesh Dahal</span>
